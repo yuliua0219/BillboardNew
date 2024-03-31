@@ -21,7 +21,6 @@ class CinemaTest {
         Assertions.assertArrayEquals(expected, actual);
 
     }
-
     @Test
     public void testFindLastWhenLimitLessThanSize() {
         Cinema manager = new Cinema();
@@ -51,7 +50,6 @@ class CinemaTest {
         Assertions.assertArrayEquals(expected, actual);
 
     }
-
     @Test
     public void testFindLastWhenLimitLessThanSize2() {
         Cinema manager = new Cinema(3);
@@ -80,7 +78,6 @@ class CinemaTest {
         Assertions.assertArrayEquals(expected, actual);
 
     }
-
     @Test
     public void testFindLastWhenLimitMoreThanSize() {
         Cinema manager = new Cinema();
@@ -102,7 +99,6 @@ class CinemaTest {
         Assertions.assertArrayEquals(expected, actual);
 
     }
-
     @Test
     public void testFindLastWhenLimitMoreThanSize2() {
         Cinema manager = new Cinema(4);
